@@ -420,10 +420,13 @@ Called whenever product inventory changes at Azan Wholesale.
 
 ```json
 {
+  "product_id": 46546,
   "sku": "8809416471112",
   "supplier": "AzanWholeSale",
   "stock": "960",
-  "status": "AVAILABLE"
+  "name": "",
+  "mrp_price": "",
+  "wholesale_price": "",
 }
 ```
 
