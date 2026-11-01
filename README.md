@@ -206,10 +206,10 @@ Submit a customer order to Azan Wholesale for direct fulfillment.
 | `phone` | string | Optional | `nullable\|string\|max:20` | Recipient phone number. |
 | `email` | string | Optional | `nullable\|email\|max:255` | Recipient email address. |
 | `area` | string | Optional | `nullable\|string\|max:255` | Area / Thana / Neighborhood. |
-| `city` | string | Optional | `nullable\|string\|max:255` | City name. |
+| `district` | string | Optional | `nullable\|string\|max:255` | City name. |
 | `state` | string | Optional | `nullable\|string\|max:255` | State / Division. |
 | `area_id` | integer | Optional | `nullable\|integer` | Courier Area ID. |
-| `city_id` | integer | Optional | `nullable\|integer` | Courier City ID. |
+| `district_id` | integer | Optional | `nullable\|integer` | Courier District ID. |
 | `zone_id` | integer | Optional | `nullable\|integer` | Courier Zone ID. |
 
 ##### `order_details.*` Item Fields
@@ -257,10 +257,10 @@ curl -X POST "https://api.azanwholesale.com/api/orders/store"   -H "App-ID: YOUR
       "email": null,
       "address": "Dhaka Mohakhali Dohs, Dhaka-1206",
       "area": "Mohakhali DOHS",
-      "city": "Dhaka",
+      "District": "Dhaka",
       "state": "Dhaka",
       "area_id": null,
-      "city_id": 3,
+      "district_id": 3,
       "zone_id": 2642
     },
     "order_details": [
