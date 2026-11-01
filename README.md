@@ -169,7 +169,7 @@ Submit a customer order to Azan Wholesale for direct fulfillment.
 3. **Price Validation:**
    - Reseller selling price (`unit_price`) **must not be less than** the wholesale price (`wholesale_price`).
    - Reseller selling price (`unit_price`) **must not exceed** the Maximum Retail Price (`mrp_price`).
-4. **Stock Validation:** The order will be rejected with `422 Unprocessable` if requested quantity exceeds available stock.
+4. **Stock Validation:** The order will be rejected with `422 Unprocessable` if the requested quantity exceeds available stock.
 
 #### Request Schema
 
@@ -206,7 +206,7 @@ Submit a customer order to Azan Wholesale for direct fulfillment.
 | `phone` | string | Optional | `nullable\|string\|max:20` | Recipient phone number. |
 | `email` | string | Optional | `nullable\|email\|max:255` | Recipient email address. |
 | `area` | string | Optional | `nullable\|string\|max:255` | Area / Thana / Neighborhood. |
-| `district` | string | Optional | `nullable\|string\|max:255` | City name. |
+| `district` | string | Optional | `nullable\|string\|max:255` | District name. |
 | `state` | string | Optional | `nullable\|string\|max:255` | State / Division. |
 | `area_id` | integer | Optional | `nullable\|integer` | Courier Area ID. |
 | `district_id` | integer | Optional | `nullable\|integer` | Courier District ID. |
