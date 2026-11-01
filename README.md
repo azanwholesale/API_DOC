@@ -235,7 +235,7 @@ curl -X POST "https://api.azanwholesale.com/api/orders/store"   -H "App-ID: YOUR
     "platform_order_id": 382969,
     "date": "2026-08-27 14:22:47",
     "note": "Fragile items. Please deliver between 2 PM - 5 PM.",
-    "delivary_method": 1,
+    "delivery_method": 1,
     "shipping_cost": 60,
     "discount": 0,
     "platform_source": "MyStore",
