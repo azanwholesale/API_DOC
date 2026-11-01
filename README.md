@@ -184,7 +184,7 @@ Submit a customer order to Azan Wholesale for direct fulfillment.
 | `note` | string | Optional | `nullable\|string\|max:1000` | Order note or special delivery notes. |
 | `shipping_cost` | integer | Optional | `nullable\|integer\|min:0` | Shipping charge. |
 | `discount` | integer | Optional | `nullable\|integer\|min:0` | Total order discount. |
-| `delivary_method` | integer | Optional | `nullable\|integer` | `0`: Picked up/received by reseller.<br>`1`: Direct delivery to customer. |
+| `delivery_method` | integer | Optional | `nullable\|integer` | `0`: Picked up/received by reseller.<br>`1`: Direct delivery to customer. |
 | `reseller_package_type` | string/int | Optional | `nullable` | Packaging type identifier. |
 | `platform_source` | string | Optional | `nullable\|string` | Store / platform name. |
 | `platform_user_id` | int/string | Optional | `nullable` | Customer ID in your system. |
