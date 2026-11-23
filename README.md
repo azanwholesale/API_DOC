@@ -333,8 +333,8 @@ Retrieve products that have been added or updated from a specific date up to the
 
 - **HTTP Method:** `GET`
 - **Route:** `/api/products/date/{date}`
-- **Live URL:** `https://api.azanwholesale.com/api/products/date/06-12-2025`
-- **Staging URL:** `https://betaapi.azanwholesale.com/api/products/date/06-12-2025`
+- **Live URL:** `https://api.azanwholesale.com/api/products/products?date=23-11-2026`
+- **Staging URL:** `https://betaapi.azanwholesale.com/api/products?date=23-11-2026`
 
 #### Headers
 
